@@ -39,7 +39,9 @@ export default function ServiceCard() {
             Creating elegant designs suited for your needs following core design
             theory.
           </p>
-          <h4 className="py-4 text-teal-500">Design Tools I Use</h4>
+          <h4 className="py-4 text-teal-500 dark:text-white">
+            Design Tools I Use
+          </h4>
           <p className="text-gray-800 dark:text-white py-1">Photoshop</p>
           <p className="text-gray-800 dark:text-white py-1">Illustrator</p>
           <p className="text-gray-800 dark:text-white py-1">Figma</p>
@@ -61,7 +63,9 @@ export default function ServiceCard() {
             Do you have an idea for your next great website? Let&aposs make it a
             reality. Check the stack I use down below.
           </p>
-          <h4 className="py-4 text-teal-500">Technologies I Use</h4>
+          <h4 className="py-4 text-teal-500 dark:text-white">
+            Technologies I Use
+          </h4>
           <p className="text-gray-800 dark:text-white py-1">Wordpress</p>
           <p className="text-gray-800 dark:text-white py-1">Next</p>
           <p className="text-gray-800 dark:text-white py-1">Tailwind</p>
@@ -83,7 +87,9 @@ export default function ServiceCard() {
             Are you interested in feedback for your current project? I can give
             you tips and tricks to level it up.
           </p>
-          <h4 className="py-4 text-teal-500 ">We can work using</h4>
+          <h4 className="py-4 text-teal-500 dark:text-white">
+            We can work using
+          </h4>
           <p className="text-gray-800 dark:text-white py-1">Slack</p>
           <p className="text-gray-800 dark:text-white py-1">Notion</p>
           <p className="text-gray-800 dark:text-white py-1">Google Calendar</p>
