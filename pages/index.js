@@ -1,6 +1,9 @@
 import Head from "next/head";
 import { BsFillMoonStarsFill } from "react-icons/bs";
 import { MdFacebook } from "react-icons/md";
+
+import dynamic from "next/dynamic";
+
 import {
   AiFillLinkedin,
   AiFillGithub,
@@ -9,7 +12,7 @@ import {
 import Image from "next/image";
 import Me from "../public/Me.png";
 import Link from "next/link";
-import ServiceCard from "../Components/ServiceCard";
+const ServiceCard = dynamic(() => import("../Components/ServiceCard"));
 
 import web1 from "../public/web1.webp";
 import web2 from "../public/web2.png";
@@ -104,7 +107,7 @@ export default function Home() {
                 TailwindCSS{" "}
               </span>
               are my fav.
-              <Link href={"https://www.google.com"}>
+              <Link prefetch={false} href={"https://www.google.com"}>
                 <span className="text-[#2980b9] text-2xl cursor-pointer">
                   {" "}
                   JamStack{" "}
