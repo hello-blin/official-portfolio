@@ -200,7 +200,7 @@ export default function Home() {
           </div>
         </section>
         <footer>
-          <div className="flex flex-row justify-center w-full border-t-[2px] py-[20px] border-t-black">
+          <div className="flex flex-row justify-center w-full border-t-[2px] py-[20px] border-t-black dark:border-t-white">
             <div className="flex flex-row justify-start align-start content-center w-[50%]">
               <h1 className="text-3xl dark:text-white font-burtons">
                 HelloBlin
