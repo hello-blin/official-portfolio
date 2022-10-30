@@ -107,7 +107,7 @@ export default function Home() {
                 TailwindCSS{" "}
               </span>
               are my fav.
-              <Link prefetch={false} href={"https://www.google.com"}>
+              <Link href={"https://www.google.com"}>
                 <span className="text-[#2980b9] text-2xl cursor-pointer">
                   {" "}
                   JamStack{" "}
