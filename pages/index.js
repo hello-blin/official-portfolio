@@ -211,7 +211,7 @@ export default function Home() {
                 HelloBlin
               </h1>
             </div>
-            <div className="flex flex-row justify-end align-end content-center gap-10 w-[50%]">
+            <div className="flex flex-row justify-end align-end content-center gap-10 w-[50%] md:gap-5">
               <Link href="https://www.linkedin.com/in/blin-kukaj-103a11176/">
                 <AiFillLinkedin className="dark:text-white cursor-pointer w-[45px] h-[25px]" />
               </Link>
