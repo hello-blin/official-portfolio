@@ -98,26 +98,22 @@ export default function Home() {
               What is going on?
             </h3>
             <p className="text-2xl py-7 leading-10 text-gray-800 dark:text-white">
-              I will be working using my favourite stack.{" "}
+              I will be working using my favourite stack.
               <span className="text-[#2980b9] text-2xl cursor-pointer">
-                {" "}
                 React
               </span>
-              ,{" "}
+              ,
               <span className="text-[#2980b9] text-2xl cursor-pointer">
-                {" "}
-                Next{" "}
+                Next
               </span>
-              ,{" "}
+              ,
               <span className="text-[#2980b9] text-2xl cursor-pointer">
-                {" "}
-                TailwindCSS{" "}
+                TailwindCSS
               </span>
               are my fav.
               <Link href={"https://www.google.com"}>
                 <span className="text-[#2980b9] text-2xl cursor-pointer">
-                  {" "}
-                  JamStack{" "}
+                  JamStack
                 </span>
               </Link>
               is now one of my specialities. I invite you to collaborate and
@@ -136,7 +132,7 @@ export default function Home() {
             <h3 className="text-5xl dark:text-white py-2">Portfolio</h3>
             <p className="text-2xl dark:text-white py-2 leading-10 text-gray-800">
               Since the beginning of my journey I have worked as a freelance
-              developer for different{" "}
+              developer for different
               <span className="text-[#2980B9]"> agencies</span>.
             </p>
             <p className="text-2xl dark:text-white py-2 leading-10 text-gray-800">
