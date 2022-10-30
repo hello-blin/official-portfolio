@@ -7,7 +7,7 @@ import code from "../public/code.png";
 export default function ServiceCard() {
   return (
     <section>
-      <div>
+      <div className="pt-[100px]">
         <h3 className="text-5xl py-7 dark:text-white">Services I offer</h3>
         <p className="text-2xl py-2 leading-10 text-gray-800 dark:text-white">
           Since the beginning of my journey as a freelance designer and
@@ -23,7 +23,7 @@ export default function ServiceCard() {
         </p>
       </div>
       <div className="lg:flex gap-10">
-        <div className="text-center shadow-lg p-10 rounded-xl my-10  dark:bg-transparent dark:border-[2px] flex-1">
+        <div className="text-center shadow-lg p-10 rounded-xl my-10  dark:bg-transparent dark:border-[2px] dark:border-[#fff] flex-1">
           <Image
             src={design}
             width={100}
@@ -44,7 +44,7 @@ export default function ServiceCard() {
           <p className="text-gray-800 dark:text-white py-1">Figma</p>
           <p className="text-gray-800 dark:text-white py-1">Indesign</p>
         </div>
-        <div className="text-center shadow-lg p-10 rounded-xl my-10 dark:bg-transparent dark:border-[2px] flex-1">
+        <div className="text-center shadow-lg p-10 rounded-xl my-10 dark:bg-transparent dark:border-[2px] dark:border-[#fff] flex-1">
           <Image
             src={code}
             width={100}
@@ -65,7 +65,7 @@ export default function ServiceCard() {
           <p className="text-gray-800 dark:text-white py-1">Tailwind</p>
           <p className="text-gray-800 dark:text-white py-1">Contentful</p>
         </div>
-        <div className="text-center shadow-lg p-10 rounded-xl my-10 dark:bg-transparent dark:border-[2px] flex-1">
+        <div className="text-center shadow-lg p-10 mb-[100px] rounded-xl my-10 dark:bg-transparent dark:border-[2px] dark:border-[#fff] flex-1">
           <Image
             src={consulting}
             width={100}
