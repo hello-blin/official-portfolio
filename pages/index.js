@@ -41,7 +41,7 @@ export default function Home() {
                   onClick={() => {
                     setDarkMode(!darkMode);
                   }}
-                  className="cursor-pointer text-xl"
+                  className="cursor-pointer text-xl dark:text-white"
                 />
               </li>
               <li>
@@ -65,9 +65,9 @@ export default function Home() {
             </p>
           </div>
           <div className="text-5xl flex justify-center align-center gap-10 text-gray-500">
-            <AiFillLinkedin className="dark:text-white"/>
-            <AiFillGithub className="dark:text-white"/>
-            <MdFacebook className="dark:text-white"/>
+            <AiFillLinkedin className="dark:text-white" />
+            <AiFillGithub className="dark:text-white" />
+            <MdFacebook className="dark:text-white" />
           </div>
           <div className="relative mx-auto bg-gradient-to-b from-[#2980B9] to-[#6DD5FA] rounded-full w-80 h-80 mt-20 overflow-hidden md:h-96 md:w-96">
             <Image
@@ -77,12 +77,16 @@ export default function Home() {
               height={"80px"}
               object-fit="cover"
               style={{ marginTop: "20px" }}
+              blurDataURL="URL"
+              placeholder="blur"
             />
           </div>
         </section>
         <section>
           <div>
-            <h3 className="text-5xl dark:text-white py-2 ">What is going on?</h3>
+            <h3 className="text-5xl dark:text-white py-2 ">
+              What is going on?
+            </h3>
             <p className="text-2xl py-7 leading-10 text-gray-800 dark:text-white">
               I will be working using my favourite stack.{" "}
               <span className="text-[#2980b9] text-2xl cursor-pointer">
@@ -138,6 +142,8 @@ export default function Home() {
                 height={"100%"}
                 layout={"responsive"}
                 src={web1}
+                blurDataURL="URL"
+                placeholder="blur"
               ></Image>
             </div>
             <div className="basis-1/3 flex-1 ">
@@ -146,6 +152,8 @@ export default function Home() {
                 width={"100%"}
                 height={"100%"}
                 layout={"responsive"}
+                blurDataURL="URL"
+                placeholder="blur"
                 src={web2}
               ></Image>
             </div>
@@ -156,6 +164,8 @@ export default function Home() {
                 height={"100%"}
                 layout={"responsive"}
                 src={web3}
+                blurDataURL="URL"
+                placeholder="blur"
               ></Image>
             </div>
           </div>
