@@ -17,6 +17,7 @@ const ServiceCard = dynamic(() => import("../Components/ServiceCard"));
 import web1 from "../public/web1.webp";
 import web2 from "../public/web2.png";
 import web3 from "../public/web3.webp";
+import web4 from "../public/web4.png";
 
 import { useState } from "react";
 
@@ -68,9 +69,15 @@ export default function Home() {
             </p>
           </div>
           <div className="text-5xl flex justify-center align-center gap-10 text-gray-500">
-            <AiFillLinkedin className="dark:text-white" />
-            <AiFillGithub className="dark:text-white" />
-            <MdFacebook className="dark:text-white" />
+            <Link href="https://www.linkedin.com/in/blin-kukaj-103a11176/">
+              <AiFillLinkedin className="dark:text-white cursor-pointer" />
+            </Link>
+            <Link href="https://github.com/hello-blin">
+              <AiFillGithub className="dark:text-white cursor-pointer" />
+            </Link>
+            <Link href="https://www.facebook.com/blinib">
+              <MdFacebook className="dark:text-white cursor-pointer" />
+            </Link>
           </div>
           <div className="relative mx-auto bg-gradient-to-b from-[#2980B9] to-[#6DD5FA] rounded-full w-80 h-80 mt-20 overflow-hidden md:h-96 md:w-96">
             <Image
@@ -139,40 +146,79 @@ export default function Home() {
           </div>
           <div className="flex flex-col gap-10 py-10 lg:flex-row lg:flex-wrap">
             <div className="basis-1/3 flex-1">
-              <Image
-                className="rounded-lg object-cover"
-                width={"100%"}
-                height={"100%"}
-                layout={"responsive"}
-                src={web1}
-                blurDataURL="URL"
-                placeholder="blur"
-              ></Image>
+              <Link href="https://bliniofficial.com/">
+                <Image
+                  className="rounded-lg object-cover cursor-pointer"
+                  width={"100%"}
+                  height={"100%"}
+                  layout={"responsive"}
+                  src={web1}
+                  blurDataURL="URL"
+                  placeholder="blur"
+                ></Image>
+              </Link>
             </div>
             <div className="basis-1/3 flex-1">
-              <Image
-                className="rounded-lg object-cover"
-                width={"100%"}
-                height={"100%"}
-                layout={"responsive"}
-                blurDataURL="URL"
-                placeholder="blur"
-                src={web2}
-              ></Image>
+              <Link href="https://www.seotactica.com">
+                <Image
+                  className="rounded-lg object-cover cursor-pointer"
+                  width={"100%"}
+                  height={"100%"}
+                  layout={"responsive"}
+                  blurDataURL="URL"
+                  placeholder="blur"
+                  src={web2}
+                ></Image>
+              </Link>
             </div>
             <div className="basis-1/3 flex-1 ">
-              <Image
-                className="rounded-lg object-cover"
-                width={"100%"}
-                height={"100%"}
-                layout={"responsive"}
-                src={web3}
-                blurDataURL="URL"
-                placeholder="blur"
-              ></Image>
+              <Link href="https://www.pappway.de">
+                <Image
+                  className="rounded-lg object-cover cursor-pointer"
+                  width={"100%"}
+                  height={"100%"}
+                  layout={"responsive"}
+                  src={web3}
+                  blurDataURL="URL"
+                  placeholder="blur"
+                ></Image>
+              </Link>
+            </div>
+            <div className="basis-1/3 flex-1 ">
+              <Link href="https://www.digital-line.co">
+                <Image
+                  className="rounded-lg object-cover cursor-pointer"
+                  width={"100%"}
+                  height={"100%"}
+                  layout={"responsive"}
+                  src={web4}
+                  blurDataURL="URL"
+                  placeholder="blur"
+                ></Image>
+              </Link>
             </div>
           </div>
         </section>
+        <footer>
+          <div className="flex flex-row justify-center w-full border-t-[2px] py-[20px] border-t-black">
+            <div className="flex flex-row justify-start align-start content-center w-[50%]">
+              <h1 className="text-3xl dark:text-white font-burtons">
+                HelloBlin
+              </h1>
+            </div>
+            <div className="flex flex-row justify-end align-end content-center gap-10 w-[50%]">
+              <Link href="https://www.linkedin.com/in/blin-kukaj-103a11176/">
+                <AiFillLinkedin className="dark:text-white cursor-pointer w-[45px] h-[25px]" />
+              </Link>
+              <Link href="https://github.com/hello-blin">
+                <AiFillGithub className="dark:text-white cursor-pointer w-[45px] h-[25px] " />
+              </Link>
+              <Link href="https://www.facebook.com/blinib">
+                <MdFacebook className="dark:text-white cursor-pointer w-[45px] h-[25px]" />
+              </Link>
+            </div>
+          </div>
+        </footer>
       </main>
     </div>
   );
