@@ -23,7 +23,7 @@ export default function ServiceCard() {
         </p>
       </div>
       <div className="flex flex-col py-10 lg:flex-row lg:flex-wrap w-full gap-10">
-        <div className="basis-1/3 flex-1 text-center shadow-lg p-10 rounded-xl my-10 dark:bg-transparent  dark:border-[2px] dark:border-[#fff]">
+        <div className="basis-1/3 flex-1 text-center shadow-lg p-10 rounded-xl my-10 dark:bg-transparent  dark:border-[2px] dark:border-[#fff] dark:text-[#fff]">
           <Image
             src={design}
             width={100}
@@ -45,7 +45,7 @@ export default function ServiceCard() {
           <p className="text-gray-800 dark:text-white py-1">Figma</p>
           <p className="text-gray-800 dark:text-white py-1">Indesign</p>
         </div>
-        <div className="basis-1/3 flex-1 text-center shadow-lg p-10 rounded-xl my-10 dark:bg-transparent dark:border-[2px] dark:border-[#fff]">
+        <div className="basis-1/3 flex-1 text-center shadow-lg p-10 rounded-xl my-10 dark:bg-transparent dark:border-[2px] dark:border-[#fff] dark:text-[#fff]">
           <Image
             src={code}
             width={100}
@@ -67,7 +67,7 @@ export default function ServiceCard() {
           <p className="text-gray-800 dark:text-white py-1">Tailwind</p>
           <p className="text-gray-800 dark:text-white py-1">Contentful</p>
         </div>
-        <div className="basis-1/3 flex-1 text-center shadow-lg p-10 mb-[100px] rounded-xl my-10 dark:bg-transparent dark:border-[2px] dark:border-[#fff]">
+        <div className="basis-1/3 flex-1 text-center shadow-lg p-10 mb-[100px] rounded-xl my-10 dark:bg-transparent dark:border-[2px] dark:border-[#fff] dark:text-[#fff]">
           <Image
             src={consulting}
             width={100}
