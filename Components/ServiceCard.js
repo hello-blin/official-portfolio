@@ -11,7 +11,7 @@ export default function ServiceCard() {
         <h3 className="text-5xl py-7 dark:text-white">Services I offer</h3>
         <p className="text-2xl py-2 leading-10 text-gray-800 dark:text-white">
           Since the beginning of my journey as a freelance designer and
-          developer, I've done remote work for
+          developer, I&aposve done remote work for
           <span className="text-[#2980B9]"> agencies </span>
           consulted for <span className="text-[#2980B9]">startups </span>
           and collaborated with talanted people to create digital products for
@@ -30,6 +30,7 @@ export default function ServiceCard() {
             height={100}
             blurDataURL="URL"
             placeholder="blur"
+            alt={"Design"}
           />
           <h3 className="text-2xl  dark:text-white font-medium pt-8 pb-2 ">
             Beautiful Designs
@@ -53,12 +54,13 @@ export default function ServiceCard() {
             height={100}
             blurDataURL="URL"
             placeholder="blur"
+            alt={"Coding"}
           />
           <h3 className="text-2xl dark:text-white font-medium pt-8 pb-2 ">
             Code your dream project
           </h3>
           <p className="py-2 dark:text-white">
-            Do you have an idea for your next great website? Let's make it a
+            Do you have an idea for your next great website? Let&aposs make it a
             reality. Check the stack I use down below.
           </p>
           <h4 className="py-4 text-teal-600 dark:text-teal-600">
@@ -76,6 +78,7 @@ export default function ServiceCard() {
             height={100}
             blurDataURL="URL"
             placeholder="blur"
+            alt={"consulting"}
           />
           <h3 className="text-2xl dark:text-white font-medium pt-8 pb-2 ">
             Consulting

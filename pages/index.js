@@ -89,6 +89,7 @@ export default function Home() {
               style={{ marginTop: "20px" }}
               blurDataURL="URL"
               placeholder="blur"
+              alt={'Profile picture'}
             />
           </div>
         </section>
@@ -155,6 +156,7 @@ export default function Home() {
                   src={web1}
                   blurDataURL="URL"
                   placeholder="blur"
+                  alt={'Blini Official'}
                 ></Image>
               </Link>
             </div>
@@ -168,6 +170,7 @@ export default function Home() {
                   blurDataURL="URL"
                   placeholder="blur"
                   src={web2}
+                  alt={'Seotactica.com'}
                 ></Image>
               </Link>
             </div>
@@ -181,6 +184,7 @@ export default function Home() {
                   src={web3}
                   blurDataURL="URL"
                   placeholder="blur"
+                  alt={'Pappway.de'}
                 ></Image>
               </Link>
             </div>
@@ -194,6 +198,7 @@ export default function Home() {
                   src={web4}
                   blurDataURL="URL"
                   placeholder="blur"
+                  alt={'digital-line.co'}
                 ></Image>
               </Link>
             </div>
