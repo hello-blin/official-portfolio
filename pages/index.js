@@ -12,6 +12,7 @@ import {
 import Image from "next/image";
 import Me from "../public/Me.png";
 import Link from "next/link";
+
 const ServiceCard = dynamic(() => import("../Components/ServiceCard"));
 
 import web1 from "../public/web1.webp";
@@ -38,7 +39,9 @@ export default function Home() {
       <main className="bg-white dark:bg-[#050A30] dark:color-white px-10 md:px-20 lg:px-40">
         <section className="min-h-[90vh]">
           <nav className="py-10 mb-12 flex justify-between">
-            <h1 className="text-3xl dark:text-white font-burtons">HelloBlin</h1>
+            <h1 className="text-[#2980B9] text-3xl dark:text-white font-burtons">
+              HelloBlin
+            </h1>
             <ul className="flex items-center  ">
               <li>
                 <BsFillMoonStarsFill
@@ -57,7 +60,7 @@ export default function Home() {
           </nav>
 
           <div className="text-center p-10">
-            <h2 className="text-7xl py-2  text-[#2980B9] font-bold">
+            <h2 className="text-7xl py-2 dark:text-[#fff] text-[#2980B9] font-bold">
               Blin Kukaj
             </h2>
             <h3 className="text-4xl py-2 md:text-3xl dark:text-white">
@@ -70,16 +73,16 @@ export default function Home() {
           </div>
           <div className="text-5xl flex justify-center align-center gap-10 text-gray-500">
             <Link href="https://www.linkedin.com/in/blin-kukaj-103a11176/">
-              <AiFillLinkedin className="dark:text-white cursor-pointer" />
+              <AiFillLinkedin className="dark:text-white cursor-pointer fill-[#2980B9]" />
             </Link>
             <Link href="https://github.com/hello-blin">
-              <AiFillGithub className="dark:text-white cursor-pointer" />
+              <AiFillGithub className="dark:text-white cursor-pointer fill-[#000] dark:fill-white" />
             </Link>
             <Link href="https://www.facebook.com/blinib">
-              <MdFacebook className="dark:text-white cursor-pointer" />
+              <MdFacebook className="dark:text-white cursor-grab fill-blue-700" />
             </Link>
           </div>
-          <div className="relative mx-auto bg-gradient-to-b from-[#2980B9] to-[#6DD5FA] rounded-full w-80 h-80 mt-20 overflow-hidden md:h-96 md:w-96">
+          <div className="relative mx-auto bg-gradient-to-b  from-[#2980B9] to-[#6DD5FA] rounded-full w-80 h-80 mt-20 overflow-hidden md:h-96 md:w-96 border-r-blue-700 border-l-blue-700 border-[40px] border-t-[#6DD5FA] border-b-[#6DD5FA]">
             <Image
               src={Me}
               layout="fill"
@@ -89,7 +92,8 @@ export default function Home() {
               style={{ marginTop: "20px" }}
               blurDataURL="URL"
               placeholder="blur"
-              alt={'Profile picture'}
+              alt={"Profile picture"}
+              className="border-emerald-200"
             />
           </div>
         </section>
@@ -101,13 +105,12 @@ export default function Home() {
             <p className="text-2xl py-7 leading-10 text-gray-800 dark:text-white">
               I will be working using my favourite stack.
               <span className="text-[#2980b9] text-2xl cursor-pointer">
-                {" "}
                 React
               </span>
-              ,{" "}
+              ,
               <span className="text-[#2980b9] text-2xl cursor-pointer">
                 {" "}
-                Next{" "}
+                Next
               </span>
               ,{" "}
               <span className="text-[#2980b9] text-2xl cursor-pointer">
@@ -125,9 +128,9 @@ export default function Home() {
               work on a website using Next, Tailwind and Contentful.
             </p>
             <p className="text-2xl py-2 leading-8 text-gray-800 dark:text-white">
-              is now one of my specialities. I invite you to collaborate and
+              <span className="text-[#2980b9]">Jamstack</span> is now one of my specialities. I invite you to collaborate and
               work on a website using Next, Tailwind and Contentful. Or at the
-              end ... We can see and use about other stacks that you prefer.
+              end ... We can see and use about other stacks that you may prefer.
             </p>
           </div>
           <ServiceCard />
@@ -156,7 +159,7 @@ export default function Home() {
                   src={web1}
                   blurDataURL="URL"
                   placeholder="blur"
-                  alt={'Blini Official'}
+                  alt={"Blini Official"}
                 ></Image>
               </Link>
             </div>
@@ -170,7 +173,7 @@ export default function Home() {
                   blurDataURL="URL"
                   placeholder="blur"
                   src={web2}
-                  alt={'Seotactica.com'}
+                  alt={"Seotactica.com"}
                 ></Image>
               </Link>
             </div>
@@ -184,7 +187,7 @@ export default function Home() {
                   src={web3}
                   blurDataURL="URL"
                   placeholder="blur"
-                  alt={'Pappway.de'}
+                  alt={"Pappway.de"}
                 ></Image>
               </Link>
             </div>
@@ -198,7 +201,7 @@ export default function Home() {
                   src={web4}
                   blurDataURL="URL"
                   placeholder="blur"
-                  alt={'digital-line.co'}
+                  alt={"digital-line.co"}
                 ></Image>
               </Link>
             </div>
@@ -213,7 +216,7 @@ export default function Home() {
             </div>
             <div className="flex flex-row justify-end align-end content-center gap-10 w-[50%] md:gap-5">
               <Link href="https://www.linkedin.com/in/blin-kukaj-103a11176/">
-                <AiFillLinkedin className="dark:text-white cursor-pointer w-[45px] h-[25px]" />
+                <AiFillLinkedin className="dark:text-white  cursor-pointer w-[45px] h-[25px]" />
               </Link>
               <Link href="https://github.com/hello-blin">
                 <AiFillGithub className="dark:text-white cursor-pointer w-[45px] h-[25px] " />

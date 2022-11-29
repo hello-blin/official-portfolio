@@ -39,13 +39,13 @@ export default function ServiceCard() {
             Creating elegant designs suited for your needs following core design
             theory.
           </p>
-          <h4 className="py-4 text-teal-500 dark:text-white">
+          <h4 className="py-4 text-teal-500 dark:text-white font-bold">
             Design Tools I Use
           </h4>
           <p className="text-gray-800 dark:text-white py-1">Photoshop</p>
           <p className="text-gray-800 dark:text-white py-1">Illustrator</p>
           <p className="text-gray-800 dark:text-white py-1">Figma</p>
-          <p className="text-gray-800 dark:text-white py-1">Indesign</p>
+          <p className="text-gray-800 dark:text-white py-1">Aftereffects</p>
         </div>
         <div className="basis-1/3 flex-1 text-center shadow-lg p-10 rounded-xl my-10 dark:bg-transparent dark:border-[2px] dark:border-[#fff] dark:text-[#fff]">
           <Image
@@ -60,18 +60,17 @@ export default function ServiceCard() {
             Code your dream project
           </h3>
           <p className="py-2 dark:text-white">
-            Do you have an idea for your next great website? Let&aposs make it a
-            reality. Check the stack I use down below.
+            Do you have an idea for your next great website?
           </p>
-          <h4 className="py-4 text-teal-500 dark:text-white">
+          <h4 className="py-4 text-teal-500 dark:text-white font-bold">
             Technologies I Use
           </h4>
           <p className="text-gray-800 dark:text-white py-1">Wordpress</p>
-          <p className="text-gray-800 dark:text-white py-1">Next</p>
-          <p className="text-gray-800 dark:text-white py-1">Tailwind</p>
-          <p className="text-gray-800 dark:text-white py-1">Contentful</p>
+          <p className="text-gray-800 dark:text-white py-1">Next.js</p>
+          <p className="text-gray-800 dark:text-white py-1">TailwindCSS</p>
+          <p className="text-gray-800 dark:text-white py-1">Any Headless CMS</p>
         </div>
-        <div className="basis-1/3 flex-1 text-center shadow-lg p-10 mb-[100px] rounded-xl my-10 dark:bg-transparent dark:border-[2px] dark:border-[#fff] dark:text-[#fff]">
+        <div className="basis-1/3 flex-1 text-center shadow-lg p-10 mb-[100px] rounded-xl my-10 dark:bg-transparent dark:border-[2px] dark:border-[#fff]  dark:text-[#fff]">
           <Image
             src={consulting}
             width={100}
@@ -87,7 +86,7 @@ export default function ServiceCard() {
             Are you interested in feedback for your current project? I can give
             you tips and tricks to level it up.
           </p>
-          <h4 className="py-4 text-teal-500 dark:text-white">
+          <h4 className="py-4 text-teal-500 dark:text-white font-bold">
             We can work using
           </h4>
           <p className="text-gray-800 dark:text-white py-1">Slack</p>
